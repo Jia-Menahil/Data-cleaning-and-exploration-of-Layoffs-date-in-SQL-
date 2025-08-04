@@ -68,6 +68,7 @@ Result
 
 ### Companies with highest laid off
 Amazon did maximum laid off
+
 Query:
 ```sql
 select company, sum(total_laid_off) as total_laid_off
@@ -82,6 +83,7 @@ Result:
 
 ### Countries who did maximum laid offs 
 United States with 256559 did highest laid offs
+
 Query:
 ```sql
 select country, sum(total_laid_off) total_laid_off
@@ -96,6 +98,7 @@ Result:
 
 ### Year with maximum layoffs 
 In year 2022, maximum laysoffs were done
+
 Query:
 ```sql
 select year(`date`), sum(total_laid_off) total_laid_offs
